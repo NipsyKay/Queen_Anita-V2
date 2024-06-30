@@ -7,7 +7,8 @@
     "scripts": {
         "run": "pm2 start . --deep-monitoring --attach --name Anita_0.1 || node .",
         "start": "pm2 start . --attach --name Anita_0.1",
-        "stop": "pm2 stop Anita_0.1"
+        "stop": "pm2 stop Anita_0.1",
+        "build": "echo \"Building the project...\""
     },
     "author": "QUEEN_ANITA-V2",
     "dependencies": {
